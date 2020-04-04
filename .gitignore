@@ -1,0 +1,5 @@
+# Project and environment files
+
+venv/
+.idea/
+
