@@ -33,7 +33,7 @@ def decode(shift, char, offset):
 
 
 def cipher(shift, input_text, code):
-    output_text = [None] * len(input_text)
+    output_text = [str()] * len(input_text)
     lower_case_offset = ord('a')
     upper_case_offset = ord('A')
     for index, char in enumerate(input_text):
